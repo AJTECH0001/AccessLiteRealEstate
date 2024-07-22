@@ -17,7 +17,7 @@ export default function IndexPage() {
               <div className="absolute bottom-0 left-5 mb-3 flex">
                 <p className="flex items-center font-medium text-white shadow-sm">
                   <i className="fa fa-camera mr-2 text-xl text-white"></i>
-                  10
+                  5
                 </p>
               </div>
               <div className="absolute bottom-0 right-5 mb-3 flex">
@@ -60,17 +60,14 @@ export default function IndexPage() {
             </div>
             <div className="mt-8 grid grid-cols-2">
               <div className="flex items-center">
-                <div className="relative">
-                  <div className="h-6 w-6 rounded-full bg-gray-200 md:h-8 md:w-8"></div>
-                  <span className="bg-primary-red absolute top-0 right-0 inline-block h-3 w-3 rounded-full"></span>
-                </div>
+               
     
                 <p className="line-clamp-1 ml-2 text-gray-800">Salman Ghouri Dev</p>
               </div>
     
               <div className="flex justify-end">
-                <button><i className="fa fa-sms mx-1 rounded-md bg-[#0174E1] py-1 px-3 text-2xl text-white"></i></button>
-                <button><i className="fa fa-phone rounded-md bg-[#0174E1] py-1 px-3 text-2xl text-white"></i></button>
+                <button><i className="fa fa-sms mx-1 rounded-md bg-[#0174E1] py-1 px-3 text-2xl text-white">BUY</i></button>
+                <button><i className="fa fa-phone rounded-md bg-[#0174E1] py-1 px-3 text-2xl text-white">TRANSFER</i></button>
               </div>
             </div>
           </div>
